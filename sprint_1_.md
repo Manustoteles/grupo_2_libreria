@@ -13,13 +13,14 @@ Miguel Antonio Albornoz, Guillermo Aprile, Ricardo J. Suarez, Emanuel Tejerina.
 
 1. Comercialización de Productos de Librería          
 2. Productos: nos enfocaremos en dos grandes rubros, venta de artículos de librería Comercial y Escolar.
-4. Segmento de Cientes: Instituciones Educativas Públicas y Privadas; Empresas y Público en General.
+4. Segmento de Cientes: Instituciones Educativas Públicas y Privadas; Empresas, y Público en General.
 
 
 
 
 
 
-I
-magen-Logo ↓
-![alt text](image.jpg)
+
+
+
+![Alt text](image.png))
