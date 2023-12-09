@@ -6,7 +6,6 @@ grupo_2_libreria
 Colaboradores: 
 Miguel Antonio Albornoz, Guillermo Aprile, Ricardo J. Suarez, Emanuel Tejerina.
 
-### H3
 
 ## Temática del Market Place:
 
@@ -17,10 +16,15 @@ Miguel Antonio Albornoz, Guillermo Aprile, Ricardo J. Suarez, Emanuel Tejerina.
 
 
 
+## Sitios Web de Referencia:
+[Sitio 1](https://www.libreriaslevalle.com/)
+[Sitio 2](https://www.laeditorial.com.ar/)
+[Sitio 3](https://www.libreriaenjoy.com.ar/)
+[Sitio 4](https://www.librerialacentral.com.ar/)
+[Sitio 5](https://libreriathesis.com.ar/)
 
 
 
 
 
-
-![Alt text](image.png))
+![Alt text](image.png)
