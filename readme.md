@@ -4,7 +4,8 @@ grupo_2_libreria
 [Repositorio](https://github.com/Manustoteles/grupo_2_libreria.git)
 
 Colaboradores: 
-Miguel Antonio Albornoz, Guillermo Aprile, Ricardo J. Suarez, Emanuel Tejerina.
+Miguel Antonio Albornoz, Guillermo Aprile, Ricardo J. Suarez, 
+Emanuel Tejerina: 38 Años, Contador Publico, socio de una empresa de Software, PO en un proyecto ERP, amante de la programacion.-
 
 
 ## Temática del Market Place:
