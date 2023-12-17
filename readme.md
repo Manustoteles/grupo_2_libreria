@@ -4,8 +4,11 @@ grupo_2_libreria
 [Repositorio](https://github.com/Manustoteles/grupo_2_libreria.git)
 
 Colaboradores: 
-Miguel Antonio Albornoz, Guillermo Aprile, Ricardo J. Suarez, 
-Emanuel Tejerina: 38 Años, Contador Publico, socio de una empresa de Software, PO en un proyecto ERP, amante de la programacion.-
+1. Miguel Antonio Albornoz: Lic. Comercialización, Magister en Finanzas, 48 años, apasionado por la Economía y los Mercados de Capitales, aficionado a la Programación.          
+2. Guillermo Aprile: 
+3. Ricardo J. Suarez: 47 años, Lic. en Comerio Internacional, Mg. en Agronegocios.
+4. Emanuel Tejerina: 38 Años, Contador Publico, socio de una empresa de Software, PO en un proyecto ERP, amante de la programacion.-
+
 
 
 ## Temática del Market Place:
@@ -19,12 +22,12 @@ Emanuel Tejerina: 38 Años, Contador Publico, socio de una empresa de Software, 
 
 
 ## Sitios Web de Referencia:
-[Sitio 1](https://www.libreriaslevalle.com/)
+[Sitio 1](https://www.libreriaslevalle.com/)Elegido como plan B de paleta de colores
 [Sitio 2](https://www.laeditorial.com.ar/)
 Seleccionado por la paleta de colores
-[Sitio 3](https://www.libreriaenjoy.com.ar/)
-[Sitio 4](https://www.librerialacentral.com.ar/)
-[Sitio 5](https://libreriathesis.com.ar/)
+[Sitio 3](https://www.zara.com/ar/) Seleccionado por la dinámica del Carrusel
+[Sitio 4](https://librerialasflores.com.ar/) Elegido por diseño del Header
+[Sitio 5](https://libreriathesis.com.ar/)Elegido por el diseño del Footer
 
 
 
