@@ -1,7 +1,7 @@
 :root {
     --amarillo: #EAC926;
-    --azul: #03264C;
-    --celeste: #648cc7;
+    --azul: #0f69c9;
+    --celeste: #8cb0e6;
     --gris_oscuro: #666;
     --gris_claro: #ebebeb;
     --Verde: #39b54a;
@@ -66,4 +66,114 @@ header{
     display: flex;
     margin-right: 20px;
     margin-top: 30px;   
+   
+}
+.header_acount{
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    padding: 10px 0px 10px;
+    margin-bottom: 10px;
+}
+
+.header_account_list{
+    display: none;
+}
+.header__buy{
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+@media (min-width:760px){
+    .header__logo{
+        margin: 0;
+    }
+    .header__search__links ul a{
+        font-size: 20px;
+    }
+    #search__bar{
+        width: 100%;
+        max-width: 450px;
+        font-size: 25px;
+    }
+    .header_acount{
+        display: flex;
+        justify-content: right;
+        width: 30px;
+        
+    }
+    .header__buy{
+        display: flex;
+        justify-content: right;
+        width: 30px;
+        margin-bottom: 10px;
+    }
+    .header_account_list{
+        display: block;
+    }
+}
+
+@media (min-width:1200px){
+    .header__logo{
+        margin: 0;
+    }
+    .header__search__links ul a{
+        font-size: 25px;
+    }
+    .header__search{
+        width: 700px;
+        border: red dotted 1px;
+        margin: 0px;
+        padding: 35px;
+    }
+    #search__bar{
+        width: 100%;
+        max-width: 450px;
+        font-size: 35px;
+    }
+}
+
+/*footer*/
+footer{
+    background-color: var(--azul);
+}
+
+.footer_account{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.footer_account h3 {
+    padding: 5px;
+    font-size: 20px;
+    
+
+}
+.footer_account ul li {
+    padding: 3px;
+
+}
+
+.footer_subscription{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.footer_subscription div{
+    margin: 20px;
+}
+#footer_subscription_mail{
+    border: black solid 1px;
+    padding: 2px;
+    border-radius: 5px;
+    
 }
