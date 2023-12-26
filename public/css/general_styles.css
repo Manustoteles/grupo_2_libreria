@@ -30,6 +30,10 @@ header{
 
 }
 
+.header__logo{
+    margin: auto;
+}
+
 .header__logo img{
     width: 250px;
     border: blue dotted 1px;
@@ -46,7 +50,7 @@ header{
 .header__search__search{
     display: flex;
     justify-content: center;
-    
+
 }
 #search__bar{
     width: 100%;
