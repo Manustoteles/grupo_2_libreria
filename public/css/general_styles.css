@@ -1,7 +1,7 @@
 :root {
     --amarillo: #EAC926;
     --azul: #0f69c9;
-    --celeste: #8cb0e6;
+    --celeste:#438d6e;
     --gris_oscuro: #666;
     --gris_claro: #ebebeb;
     --Verde: #39b54a;
@@ -15,6 +15,7 @@
     text-decoration: none;
     list-style-type: none;
     color: black;
+    font-family: lato;
 }
 /*header*/
 header{
@@ -55,6 +56,7 @@ header{
 #search__bar{
     width: 100%;
     max-width: 350px;
+    border-radius: 20px;
 }
 
 .header__search__links ul {
@@ -62,18 +64,20 @@ header{
     row-gap: 20px;
 }
 
-.header__search__links ul a{
+.header__search__links ul li a{
     display: flex;
     margin-right: 20px;
     margin-top: 30px;   
+    
    
 }
 .header_acount{
     display: flex;
     justify-content: right;
     width: 400px;
-    padding: 10px 0px 10px;
+    padding: 25px 0px 10px;
     margin-bottom: 10px;
+    align-self: flex-start;
 }
 
 .header_account_list{
@@ -100,19 +104,21 @@ header{
     }
     .header_acount{
         display: flex;
-        justify-content: right;
-        width: 30px;
-        
+        justify-content: center;
+        width: 70px;
+        padding-top: 35px;
+        align-self: flex-start;
     }
     .header__buy{
         display: flex;
-        justify-content: right;
-        width: 30px;
-        margin-bottom: 10px;
+        justify-content: center;
+        width: 90px;
+        padding-top: 35px;
+        align-self: flex-start;
     }
-    .header_account_list{
-        display: block;
-    }
+   footer{
+    display: flex;
+   }
 }
 
 @media (min-width:1200px){
@@ -123,15 +129,18 @@ header{
         font-size: 25px;
     }
     .header__search{
-        width: 700px;
+        width: 1030px;
         border: red dotted 1px;
         margin: 0px;
         padding: 35px;
     }
     #search__bar{
         width: 100%;
-        max-width: 450px;
-        font-size: 35px;
+        max-width: 750px;
+        font-size: 30px;
+    }
+    .header__search_butom{
+        font-size: 30px;
     }
 }
 
@@ -175,5 +184,22 @@ footer{
     border: black solid 1px;
     padding: 2px;
     border-radius: 5px;
+    background-color: white;
     
+}
+.footer_folow{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.footer_folow h3{
+    
+    margin-bottom: 25px;
+}
+
+.footer_folow_logos{
+    font-size: 50px;
 }
