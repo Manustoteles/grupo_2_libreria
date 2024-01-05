@@ -1,7 +1,7 @@
 :root {
     --amarillo: #EAC926;
-    --azul: #0f69c9;
-    --celeste:#438d6e;
+    --azul: #0f5fb4b6;
+    --celeste:#288d63;
     --gris_oscuro: #666;
     --gris_claro: #ebebeb;
     --Verde: #39b54a;
@@ -27,8 +27,6 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    
-
 }
 
 .header__logo{
@@ -37,13 +35,12 @@ header{
 
 .header__logo img{
     width: 250px;
-    border: blue dotted 1px;
-    
+   /* border: blue dotted 1px;*/
 }
 
 .header__search{
     width: 500px;
-    border: red dotted 1px;
+   /* border: red dotted 1px;*/
     margin: 0px;
     padding: 25px;
 }
@@ -53,6 +50,7 @@ header{
     justify-content: center;
 
 }
+
 #search__bar{
     width: 100%;
     max-width: 350px;
@@ -71,6 +69,7 @@ header{
     
    
 }
+
 .header_acount{
     display: flex;
     justify-content: right;
@@ -88,6 +87,15 @@ header{
     justify-content: right;
     width: 400px;
     margin-bottom: 10px;
+}
+@media (min-width:360px){
+    .header__search{
+        
+       /* border: red dotted 1px;*/
+        margin: 6px;
+        padding: 0px;
+    }
+    
 }
 
 @media (min-width:760px){
@@ -122,25 +130,27 @@ header{
 }
 
 @media (min-width:1200px){
+    .header_navbar{
+        justify-content: center;
+    }
     .header__logo{
         margin: 0;
     }
     .header__search__links ul a{
-        font-size: 25px;
+        font-size: 18px;
     }
     .header__search{
         width: 1030px;
-        border: red dotted 1px;
         margin: 0px;
         padding: 35px;
     }
     #search__bar{
         width: 100%;
-        max-width: 750px;
-        font-size: 30px;
+        max-width: 550px;
+        font-size: 20px;
     }
     .header__search_butom{
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
@@ -157,12 +167,12 @@ footer{
     text-align: left;
     margin-bottom: 15px;
 }
-.footer_account h3 {
+
+footer h3 {
     padding: 5px;
     font-size: 20px;
-    
-
 }
+
 .footer_account ul li {
     padding: 3px;
 
@@ -202,4 +212,7 @@ footer{
 
 .footer_folow_logos{
     font-size: 50px;
+}
+#mail_row{
+    font-size: 18px;
 }
