@@ -14,6 +14,10 @@ app.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname,'views','index.html'))
 })
 
+app.get('/productdetail',(req,res) => {
+    res.send(path.join(__dirname, 'views', 'productDetail.html'))
+})
+
 app.listen(port, () => {
     console.log(`Nuestra app corre en http://localhost:${port}`)
 })

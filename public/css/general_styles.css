@@ -1,10 +1,10 @@
 :root {
-    --amarillo: #EAC926;
-    --azul: #0f5fb4b6;
-    --celeste:#288d63;
+    --amarillo: #FFBF5D;
+    --azul_oscuro: #2B3D4A;
+    --celeste:#39cccc;
     --gris_oscuro: #666;
-    --gris_claro: #ebebeb;
-    --Verde: #39b54a;
+    --gris_claro: #ECECEA;
+    --Verde: #009B7D;
 
 }
 
@@ -34,8 +34,10 @@ header{
 }
 
 .header__logo img{
-    width: 250px;
-   /* border: blue dotted 1px;*/
+    width: 160px;
+    height: 160px;
+    margin: 0px 0px 0px 40px;
+    border: blue dotted 1px;
 }
 
 .header__search{
