@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <title>Formulario de Registro</title>
     <link href="/css/general_styles.css" rel="stylesheet" >
     <link href="css/register_styles.css" rel="stylesheet">
 
@@ -33,6 +33,8 @@
             <input type="date" name="fecha" id="fecha">
         </div>
         <div>
+            <label for="codigo">Prefijo</label>
+            <input class="prefijo" type="text" name="codigo" id="codigo">
             <label for="telefono">Teléfono</label>
             <input type="text" name="telefone" id="telefono">
         </div>
@@ -40,7 +42,7 @@
             <label for="informacion">Quiero recibir información personalizada de la Libreria.</label>
             <input type="checkbox" name="informacion" checked>
             <br br="break line">
-            <label for="terminos">Acepto los términos y condiciones.</label>
+            <label for="terminos">Términos y condiciones. <a href="#">acepto condiciones y política de cookies</a></label>
             <input type="checkbox" name="terminos" checked>
         </div>
         <div class="botones">
