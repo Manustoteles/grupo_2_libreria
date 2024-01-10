@@ -1,8 +1,21 @@
+*{
+    padding-left: 5px;
+    box-sizing: border-box;
+    
+}
 .logo_reg{
     width: 120px;
+    background-color: white;
 }
 
-.form_reg{
-
-    color: aqua;
+.datos_pers{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+div{
+    line-height: 40px;
+}
+.terminos_info{
+    font-size: 12px;
+    
 }
