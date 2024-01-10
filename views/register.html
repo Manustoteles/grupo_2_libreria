@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Formulario de Registro</title>
+    <link href="css/register_styles.css" rel="stylesheet">
+
 </head>
+
 <body>
-    
+    <form action="/register" method="POST">
+        DATOS PERSONALES 
+        <div>
+            <label for="name">Ingresar Nombre y Apellido</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="user">Nombre de Usuario</label>
+            <input type="text" name="user" id="user">
+        </div>
+        <div>
+            <label for="e-mail">Ingrese E-mail</label>
+            <input type="text" name="e-mail" id="e-mail">
+        </div>
+        <div>
+            <label for="date">Fecha Nacimiento</label>
+            <input type="text" name="date" id="date">
+        </div>
+        <div>
+            <label for="adress">Domicilio</label>
+            <input type="text" name="adress" id="adress">
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+        </div>
 </body>
+
 </html>

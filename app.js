@@ -13,7 +13,10 @@ app.use(express.static(rute))
 app.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname,'views','index.html'))
 })
+app.get('/register',(req,res)=>{
 
+    res.sendFile(path.join(__dirname,'views','register.html'))
+})
 app.get('/productdetail',(req,res) => {
     res.send(path.join(__dirname, 'views', 'productDetail.html'))
 })
