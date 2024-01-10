@@ -12,7 +12,8 @@
 </head>
 
 <body>
-    <form action="/register" method="POST">
+    <img class="logo_reg" src="images/logo_libreria.png" alt="Logo Empresa">
+    <form class="form_reg" action="/register" method="POST">
         DATOS PERSONALES 
         <div>
             <label for="name">Ingresar Nombre y Apellido</label>
@@ -24,18 +25,18 @@
         </div>
         <div>
             <label for="e-mail">Ingrese E-mail</label>
-            <input type="text" name="e-mail" id="e-mail">
+            <input type="email" name="e-mail" id="e-mail">
         </div>
         <div>
-            <label for="date">Fecha Nacimiento</label>
-            <input type="text" name="date" id="date">
+            <label for="fecha">Fecha Nacimiento</label>
+            <input type="date" name="fecha" id="fecha">
         </div>
         <div>
             <label for="adress">Domicilio</label>
             <input type="text" name="adress" id="adress">
         </div>
         <div>
-            <button type="submit">Enviar</button>
+            <button type="submit">Crear Cuenta</button>
             <button type="reset">Cancelar</button>
         </div>
 </body>
